@@ -1,0 +1,14 @@
+//scotts code for when a button is clicked to show if its a bomb or not
+for(int x=0; x<buttons.length; x++){
+	for(int y=0; y<buttons.length; y++){
+		if(.getSource().equals(buttons[x][y]){
+			if(selectedTile = mine){
+				buttons[x][y].setText("*");
+			}
+			else{
+				buttons[x][y].setText(aroundTile + "");	
+				buttons[x][y].setEnabled(false);
+			}
+		}
+	}
+}
